@@ -5,7 +5,7 @@ import { checkTask, toggleFilter } from '../actions';
 
 import { Task } from '../components/Task';
 
-export const ToDo = ({ tasks, checkTask, toggleFilter }) => {
+const ToDo = ({ tasks, checkTask, toggleFilter }) => {
   return (
     <div>
       <h1>TO DO</h1>
